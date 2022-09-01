@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background: url('/Asset/background.jpeg');
+    position:relative;
+    background-position:bottom center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;  
+}
+nav{
+    display: flex;
+    justify-content:space-between; 
+}
+[alt="logo"]{
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+    width: 6rem;
+    height: 2.5rem;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    margin:1rem 2rem;
+    border-bottom: solid #f5f5f5;
+    border-width: 1px;
+    
+    /* justify-content: center; */
+}
+.nav-item{
+    padding: 2rem 1rem;
+    color:#ffffff;
+    /* margin-right:2rem; */
+    flex-grow: 1;
+}
+.contact{
+    display: inherit;
+}
+.contactinfo{
+    margin-top: 1.5rem;
+    color: #f5f5f5;
+    margin-right: 1rem;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-around;
+}
+.heading{
+    color:#f5f5f5;
+    font-weight: bold;
+    font-size: 4rem;
+    margin:4rem 6rem;
+}
+.btn{
+    margin: 1rem 6rem;
+    border: none;
+    padding: 0.8rem 0.8rem;
+    background: transparent;
+    outline-style: solid;
+    outline-color: #f5f5f5;
+    color: #f5f5f5;
+    border-radius: 20px;
+    width:max-content;
+    align-items: center;
+    font-size: xx-large;
+}
+.card1{
+    background-color: rgba(175, 174, 174, 0.350);
+    margin-top: 15rem;
+    height: 15rem;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem 1rem;
+}
+.puzzle{
+    margin-bottom: 1rem;
+    display: inherit;
+    align-items: flex-start;
+    width: max-content;
+    border-radius: 1rem;
+    width:max-content
+}
+.idea{
+    margin-bottom: 1rem;
+    display: inherit;
+    align-items: flex-start;
+    width: max-content;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width:fit-content;
+    padding:0.1rem 1rem;
+    margin-bottom:.7rem
+}
+.card2{
+    color: #f5f5f5;
+    background-color: rgba(175, 174, 174, 0.450);
+    width: 15rem;
+    height: 12rem;
+}
+.container-text{
+    color: #ffffff;
+}
+.line2{
+    position: absolute;
+    bottom: 200px;
+    right: 218px;
+    border:.5px solid #f5f5f5;
+    width: 7rem;
+}
+.line1{
+    position: absolute;
+    bottom: 325px;
+    right: 120px;
+    transform: rotate(90deg);
+    border:.5px solid #f5f5f5;
+    width: 7rem;
+}
+.circle2{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    bottom: 255px;
+    right: 168px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+}
+.circle1{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    position: absolute;
+    bottom: 192px;
+    right: 210px;
+}
+
+@media screen and (max-width:1200px) {
+    .maincontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        background: url('/Asset/background.jpeg');
+        position:relative;
+        background-position:bottom center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        height: 300vh;  
+        width: auto;
+    }
+    .card1{
+        margin: 2rem 0rem;
+    }
+    .card2{
+        margin: 2rem 0rem;
+    }
+    .line1{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .circle1{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    [alt="logo"]{
+        margin: 2rem 2rem;
+        padding: 1rem 1rem;
+        width: 6rem;
+        height: 2.5rem;
+    }
+    
+    .nav-items{
+        display: flex;
+        flex-direction: row;
+        margin:1rem 2rem;
+        border:none;
+        flex-wrap: wrap;
+    }
+    .nav-item{
+        padding: 2rem 1rem;
+        color:#ffffff;
+        /* margin-right:2rem; */
+        flex-grow: 1;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card2{
+        color: #f5f5f5;
+        background-color: rgba(175, 174, 174, 0.450);
+        width: auto;
+        height: 12rem;
+    }
+    .heading{
+        color:#f5f5f5;
+        font-weight: bold;
+        font-size: 3rem;
+        margin:4rem 2rem;
+    }
+}
