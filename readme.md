@@ -7,7 +7,7 @@
 
 ## Deployed Link
 
-[Link]()
+[Link](https://shwetank-interior-design-s.netlify.app/)
 
 ## Final Result
 
